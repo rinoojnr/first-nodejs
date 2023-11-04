@@ -40,9 +40,9 @@ const requestHandiler = (req,res) =>{
 // };
 
 //3 
-// module.exports.handler = requestHandiler;
-// module.exports.someTexr = 'it is very fun';
+module.exports.handler = requestHandiler;
+module.exports.someText = 'it is very fun';
 
 //4
-exports.handler = requestHandiler;
-exports.someTexr = 'it is very fun';
+// exports.handler = requestHandiler;
+// exports.someText = 'it is very fun';
